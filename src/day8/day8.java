@@ -30,7 +30,7 @@ public class day8 {
     }
 
 
-    public static boolean part1(boolean[] loop, int i, int acu, ArrayList<String> input) {
+    public static void part1(boolean[] loop, int i, int acu, ArrayList<String> input) {
         boolean[] loop2 = loop.clone();
         while (true) {
             while (i < 0) i += input.size();
@@ -52,7 +52,6 @@ public class day8 {
                 i++;
             }
         }
-        return false;
     }
 
     public static boolean part2(boolean[] loop, int i, int acu, ArrayList<String> input, boolean change) {
