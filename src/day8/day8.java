@@ -28,8 +28,7 @@ public class day8 {
         part2(loop, i, acu, allinput, true);
         System.out.println(System.currentTimeMillis() - startTime);
     }
-
-
+    
     public static void part1(boolean[] loop, int i, int acu, ArrayList<String> input) {
         boolean[] loop2 = loop.clone();
         while (true) {
